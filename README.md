@@ -22,7 +22,7 @@ This project was not as difficult as I thought it would be. I took the opportuni
 ### Screenshot
 
 ![](./Screenshots/Screenshot_Desktop.png)
-![](./Screenshots/Screenshot.900with375.png)
+![](./Screenshots/Screenshot_900with375.png)
 
 ### Links
 
