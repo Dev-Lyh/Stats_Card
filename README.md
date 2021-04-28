@@ -45,4 +45,4 @@ I was able to have more control of the media query, this is good because I had d
 ## Author
 
 - My Portfolio - [Emily Felicio](https://emilyfelicio.github.io/Portfolio/Portfolio/HTML/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/EmilyFelicio)
+- Frontend Mentor - [@EmilyFelicio](https://www.frontendmentor.io/profile/EmilyFelicio)
