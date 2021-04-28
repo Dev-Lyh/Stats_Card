@@ -1,0 +1,208 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.c-container{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #090b1a;
+}
+h1{
+    color: #ffffff;
+    font-family: 'Lexend Deca';
+    font-weight: 700;
+    font-size: 35px;
+}
+mark{
+    background-color: transparent;
+    color: #aa5cdb;
+    font-family: 'Lexend Deca';
+    font-weight: 700;
+}
+.container{
+    display: grid;
+
+    background-color: aquamarine;
+    grid-template-columns: repeat(2, 540px);
+    width: 1080px;
+    height: 446px;
+    background-color: #1b1938;
+    border-radius: 10px;
+}
+.card-T{
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-right: 10px;
+    word-spacing: 5px;
+}
+.photo-M{
+    display: none;
+}
+.photo-S{
+    text-align: end;
+    width: -540px;
+}
+.photo-S img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.down-h1{
+    color: #ffffffbf;
+    font-family: 'Inter', sans-serif;
+    word-spacing: 15px;
+    font-size: 11pt;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.statusItem{
+    display: grid;
+    margin-top: 90px;
+    grid-template-columns: repeat(3, 156px);
+    background-color: transparent;
+}
+.statusItem h2{
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.statusItem p{
+    color: #ffffff99;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 9pt;
+    font-weight: 400;
+    margin-top: 8px;
+    text-transform: uppercase;
+}
+
+/*!Media Query*/
+
+@media screen and (max-width: 900px) and (min-width: 660px){
+    .container{
+        display: grid;
+    
+        background-color: aquamarine;
+        grid-template-rows: repeat(3, 451px);
+        width: 654px;
+        height: 1354px;
+        background-color: #1b1938;
+        border-radius: 20px;
+    }
+    .photo-S{
+        display: none;
+    }
+    .photo-M{
+        display: block;
+        grid-row: 1;
+    }
+    .photo-M img{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .c-cardT{
+        grid-row: 2;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 654px;
+        display: grid;
+        height: 451px;
+    }
+    .card-T{
+        margin-left: 0;
+        margin-right: 0;
+        width: 375px;
+    }
+    mark{
+        font-weight: 700;
+    }
+    .down-h1{
+        color: #ffffffbf;
+        font-family: 'Inter', sans-serif;
+        font-size: 15pt;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    .statusItem{
+        margin-left: 0;
+        margin-right: 0;
+        grid-row-gap: 90px;
+        grid-template-columns: none;
+        width: 375px;
+    }
+}
+@media screen and (max-width: 659px) and (min-width: 375px){
+    .container{
+        display: grid;
+
+        grid-template-rows: repeat(3, 260px);
+        width: 370px;
+        height: auto;
+        background-color: #1b1938;
+        border-radius: 10px;
+    }
+    .photo-S{
+        display: none;
+    }
+    .photo-M{
+        display: block;
+        width: 370px;
+        grid-row: 1;
+    }
+    .photo-M img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 370px;
+    }
+    h1{
+        font-size: 26pt;
+    }
+    .c-cardT{
+        grid-row: 2;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 355px;
+        display: grid;
+        height: 451px;
+    }
+    .card-T{
+        margin-left: 0;
+        margin-right: 0;
+        width: 355px;
+    }
+    mark{
+        font-weight: 700;
+    }
+    .down-h1{
+        color: #ffffffbf;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        margin-top: 10px;
+        font-size: 14pt;
+        word-spacing: 0;
+    }
+    .statusItem{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        line-height: 30px;
+        grid-template-columns: none;
+        width: 370px;
+    }
+    .statusItem p{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: -5px;
+    }
+}
