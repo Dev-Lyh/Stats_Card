@@ -27,7 +27,7 @@ This project was not as difficult as I thought it would be. I took the opportuni
 ### Links
 
 - Solution URL: [No link Yet]()
-- Live Site URL: [No link Yet]()
+- Live Site URL: [Link of the Site | Stats Card](https://emilyfelicio.github.io/Stats_Card/)
 
 ## My process
 
